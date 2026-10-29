@@ -1,0 +1,181 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Inscrição · Amazônia Solar Business 2026</title>
+    <meta name="description" content="Inscrição gratuita para o Amazônia Solar Business 2026 – 3ª edição. 12 de novembro, Clube da OAB Amazonas, Manaus/AM." />
+    <meta name="theme-color" content="#0b3d1f" />
+    <meta property="og:title" content="Amazônia Solar Business 2026 · 3ª edição" />
+    <meta property="og:description" content="A Nova Era da Liberdade Energética. Inscrição gratuita, vagas limitadas." />
+    <meta property="og:image" content="assets/rio-amazonas.jpg" />
+    <link rel="icon" type="image/png" href="assets/favicon.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="config.js"></script>
+    <script src="pixel.js"></script>
+  </head>
+  <body>
+    <noscript><img height="1" width="1" style="display:none" alt="" src="https://www.facebook.com/tr?id=2321127448666972&ev=PageView&noscript=1" /></noscript>
+    <svg class="faixas" viewBox="0 0 1440 900" preserveAspectRatio="none" aria-hidden="true">
+      <path d="M 1500 120 C 1330 170, 1290 300, 1360 440 C 1400 520, 1350 620, 1500 690" stroke="#B6E33A" stroke-width="44" fill="none" stroke-linecap="round" />
+      <path d="M 1080 -40 C 1140 60, 1260 90, 1500 50" stroke="#F2C21B" stroke-width="30" fill="none" stroke-linecap="round" />
+      <path d="M -60 700 C 60 660, 90 780, 40 860 C 10 900, 40 960, 100 1000" stroke="#F2C21B" stroke-width="34" fill="none" stroke-linecap="round" />
+    </svg>
+
+    <header class="topo">
+      <div class="marca">
+        <img class="marca-coroa" src="assets/logo-coroa.png" alt="" />
+        <img class="marca-nome" src="assets/logo-nome.png" alt="Amazônia Solar Business" />
+      </div>
+      <span class="edicao">3ª EDIÇÃO <b>·</b> 2026</span>
+    </header>
+
+    <main class="pagina">
+      <section class="hero">
+        <span class="chip">INSCRIÇÃO GRATUITA · VAGAS LIMITADAS</span>
+        <h1>A Nova Era da <span class="destaque">Liberdade Energética</span></h1>
+        <p class="sub">Conectando inovação, negócios e a transição energética na Amazônia. Um dia de conhecimento, networking e oportunidades com empresários, integradores, especialistas e instituições do setor.</p>
+
+        <div class="info">
+          <div class="info-item">
+            <svg viewBox="0 0 64 64" aria-hidden="true"><rect x="10" y="14" width="44" height="40" rx="5" /><path d="M10 26 H54" /><path d="M22 8 V18" /><path d="M42 8 V18" /></svg>
+            <div><strong>12 de novembro de 2026</strong><span>09h às 19h</span></div>
+          </div>
+          <div class="info-item">
+            <svg viewBox="0 0 64 64" aria-hidden="true"><path d="M32 57 C32 57 50 39 50 26 A18 18 0 0 0 14 26 C14 39 32 57 32 57 Z" /><circle cx="32" cy="26" r="7" /></svg>
+            <div><strong>Clube da OAB Amazonas</strong><span>Manaus/AM</span></div>
+          </div>
+        </div>
+
+        <figure class="foto"><img src="assets/rio-amazonas.jpg" alt="Vista aérea do Rio Amazonas ao pôr do sol" /></figure>
+      </section>
+
+      <section class="cartao" aria-labelledby="titulo-form">
+        <form id="inscricao" novalidate>
+          <h2 id="titulo-form">Faça sua inscrição</h2>
+          <p class="obs">Campos com <span class="req">*</span> são obrigatórios.</p>
+
+          <fieldset>
+            <legend>Seus dados</legend>
+            <div class="campo largo">
+              <label for="nome">Nome completo <span class="req">*</span></label>
+              <input id="nome" name="nome" type="text" autocomplete="name" required />
+            </div>
+            <div class="campo">
+              <label for="cpf">CPF <span class="req">*</span></label>
+              <input id="cpf" name="cpf" type="text" inputmode="numeric" placeholder="000.000.000-00" maxlength="14" required />
+            </div>
+            <div class="campo">
+              <label for="whatsapp">WhatsApp com DDD <span class="req">*</span></label>
+              <input id="whatsapp" name="whatsapp" type="tel" inputmode="numeric" autocomplete="tel-national" placeholder="(92) 90000-0000" maxlength="15" required />
+            </div>
+            <div class="campo largo">
+              <label for="email">E-mail <span class="req">*</span></label>
+              <input id="email" name="email" type="email" autocomplete="email" required />
+            </div>
+          </fieldset>
+
+          <fieldset>
+            <legend>Empresa ou instituição</legend>
+            <label class="check">
+              <input id="sem-empresa" type="checkbox" />
+              <span>Não possuo empresa ou instituição</span>
+            </label>
+            <div class="campo">
+              <label for="empresa">Empresa ou instituição <span class="req">*</span></label>
+              <input id="empresa" name="empresa" type="text" autocomplete="organization" required />
+            </div>
+            <div class="campo">
+              <label for="cnpj">CNPJ <span class="req">*</span></label>
+              <input id="cnpj" name="cnpj" type="text" inputmode="numeric" placeholder="00.000.000/0000-00" maxlength="18" required />
+            </div>
+          </fieldset>
+
+          <fieldset>
+            <legend>Endereço</legend>
+            <div class="campo">
+              <label for="cep">CEP <span class="req">*</span></label>
+              <input id="cep" name="cep" type="text" inputmode="numeric" autocomplete="postal-code" placeholder="00000-000" maxlength="9" required />
+              <small class="ajuda" id="cep-ajuda">Digite o CEP para preencher o endereço.</small>
+            </div>
+            <div class="campo">
+              <label for="numero">Número <span class="req">*</span></label>
+              <input id="numero" name="numero" type="text" required />
+            </div>
+            <div class="campo largo">
+              <label for="endereco">Endereço <span class="req">*</span></label>
+              <input id="endereco" name="endereco" type="text" autocomplete="address-line1" required />
+            </div>
+            <div class="campo">
+              <label for="bairro">Bairro</label>
+              <input id="bairro" name="bairro" type="text" />
+            </div>
+            <div class="campo">
+              <label for="cidade">Cidade <span class="req">*</span></label>
+              <input id="cidade" name="cidade" type="text" autocomplete="address-level2" required />
+            </div>
+            <div class="campo">
+              <label for="estado">Estado</label>
+              <select id="estado" name="estado">
+                <option value="">Selecione</option>
+                <option>AC</option><option>AL</option><option>AP</option><option selected>AM</option><option>BA</option>
+                <option>CE</option><option>DF</option><option>ES</option><option>GO</option><option>MA</option>
+                <option>MT</option><option>MS</option><option>MG</option><option>PA</option><option>PB</option>
+                <option>PR</option><option>PE</option><option>PI</option><option>RJ</option><option>RN</option>
+                <option>RS</option><option>RO</option><option>RR</option><option>SC</option><option>SP</option>
+                <option>SE</option><option>TO</option>
+              </select>
+            </div>
+          </fieldset>
+
+          <fieldset class="bonus">
+            <legend>🎁 Oportunidade exclusiva</legend>
+            <p class="bonus-titulo">Treinamento com <strong>Bárbara Rubim</strong>, presidente da ABSOLAR</p>
+            <p>No dia <strong>13 de novembro de 2026</strong> acontece um treinamento exclusivo e gratuito sobre armazenamento de energia, regulamentação e aplicações práticas. Os participantes do Amazônia Solar Business 2026 podem concorrer a uma das vagas.</p>
+            <p class="pergunta" id="treinamento-label">Você gostaria de concorrer a um ingresso gratuito para essa experiência? <span class="req">*</span></p>
+            <div class="opcoes" role="radiogroup" aria-labelledby="treinamento-label">
+              <label class="opcao"><input type="radio" name="treinamento" value="Sim, quero participar!" required /><span>Sim, quero participar!</span></label>
+              <label class="opcao"><input type="radio" name="treinamento" value="Não tenho interesse no momento." /><span>Não tenho interesse no momento.</span></label>
+            </div>
+          </fieldset>
+
+          <p class="lgpd">Seus dados são usados apenas pela organização do evento para a inscrição e comunicações sobre o Amazônia Solar Business 2026.</p>
+
+          <p class="erro-geral" id="erro-geral" role="alert" hidden></p>
+          <button type="submit" class="enviar" id="enviar">
+            <span>GARANTIR MINHA VAGA</span>
+            <svg viewBox="0 0 64 64" aria-hidden="true"><path d="M10 32 H52" /><path d="M36 16 L52 32 L36 48" /></svg>
+          </button>
+        </form>
+
+        <div class="sucesso" id="sucesso" hidden tabindex="-1">
+          <div class="sucesso-icone"><svg viewBox="0 0 64 64" aria-hidden="true"><path d="M14 34 L27 46 L50 20" /></svg></div>
+          <h2>Inscrição recebida com sucesso!</h2>
+          <p>Obrigado por se inscrever no <strong>Amazônia Solar Business 2026 – 3ª edição</strong>.</p>
+          <ul>
+            <li>📅 12 de novembro de 2026</li>
+            <li>🕘 9h às 19h</li>
+            <li>📍 Salão do Clube da OAB Amazonas – Manaus/AM</li>
+          </ul>
+          <p>Acompanhe as novidades e a programação no Instagram <a href="https://www.instagram.com/amerenovaveis/" target="_blank" rel="noopener">@amerenovaveis</a>.</p>
+          <p class="sucesso-fim">Esperamos você para um dia de conhecimento, conexões e oportunidades!</p>
+        </div>
+      </section>
+    </main>
+
+    <footer class="rodape">
+      <div class="apoios">
+        <div><span>Organização</span><img src="assets/logo-amerenovaveis.png" alt="AMERENOVÁVEIS" /></div>
+        <div><span>Co-organização</span><img src="assets/logo-sebrae.png" alt="SEBRAE/AM" /></div>
+        <div><span>Apoio</span><img src="assets/logo-polo.png" alt="Polo SEBRAE de Energias Renováveis" /></div>
+        <div><span>Produção</span><img src="assets/logo-cs-producoes.png" alt="CS Produções Eventos Corporativos" /></div>
+      </div>
+      <p>Amazônia Solar Business 2026 · <a href="https://www.instagram.com/amerenovaveis/" target="_blank" rel="noopener">@amerenovaveis</a></p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
